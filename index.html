@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up for Our Survey</title>
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        /* Call to Action Section */
+        .cta {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .cta h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .cta p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .cta button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta button:hover {
+            background-color: #45a049;
+        }
+
+        /* Google Form Embed */
+        .form-container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            height: 700px;
+            border: none;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Survey Participation</h1>
+        <p>Digital Legacy</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="container">
+
+        <!-- Call to Action Section -->
+        <div class="cta">
+            <h2>Join Our Survey</h2>
+            <p>We value your perspective and invite you to take part in our survey.
+
+By completing the form below, you’ll share your feedback and insights, which will help us evaluate and improve a product. The survey takes only a few minutes to complete, and your responses will remain confidential.
+Please fill out the form below to participate.</p>
+            <button onclick="document.getElementById('form-section').scrollIntoView();">Get Started</button>
+        </div>
+
+        <!-- Google Form Embed Section -->
+        <div class="form-container" id="form-section">
+            <h3>Survey Form</h3>
+            <p>Please fill out the form below:</p>
+
+            <!-- Embed your Google Form here -->
+            <iframe src="https://forms.gle/m8ofPxdzuAJftbC98">
+                Loading…
+            </iframe>
+        </div>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 IHX. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
